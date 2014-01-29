@@ -1,0 +1,11 @@
+#
+# These files aren't filly sent to the client because they
+# should never change. Instead we send the CRC of this file
+# so the client can load their version - and we know it's kewl.
+#
+# Format:
+# gamemodes\yourgamemode\directory\file.lua
+gamemodes\betrayal\gamemode\cl_init.lua
+gamemodes\betrayal\gamemode\shared.lua
+gamemodes\betrayal\gamemode\player.lua
+gamemodes\betrayal\entities\weapon_btrrifle.lua

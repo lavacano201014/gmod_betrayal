@@ -1,0 +1,29 @@
+"sandbox"
+{
+	"base"		"base"
+	"title"		"Betrayal"
+	"maps"		"^btr_"
+	"menusystem"	"1"
+	
+	"settings"
+	{
+		1
+		{
+			"name"		"mp_timelimit"
+			"text"		"Time Limit"
+			"help"		"Game ends after this much time has elapsed, in minutes"
+			"type"		"Numeric"
+			"default"	"10"
+		}
+
+		
+		2
+		{
+			"name"		"mp_fraglimit"
+			"text"		"Score Limit"
+			"help"		"Game ends after this many points have been achieved"
+			"type"		"Numeric"
+			"default"	"200"
+		}
+	}
+}
